@@ -1,0 +1,42 @@
+name: EventPlugin
+version: '${version}'
+main: me.reclines.eventplugin.EventPlugin
+api-version: 1.19
+load: STARTUP
+authors: [ Reclines ]
+
+commands:
+  pvp:
+    description: Toggle PvP
+    usage: /pvp
+    permission: eventplugin.pvp
+    permission-message: You do not have permission to use this command.
+  build:
+    description: Toggle building
+    usage: /build
+    permission: eventplugin.build
+    permission-message: You do not have permission to use this command.
+  start:
+    description: Start the event
+    usage: /start
+    permission: eventplugin.start
+    permission-message: You do not have permission to use this command.
+  setborder:
+    description: Set the border
+    usage: /setborder
+    permission: eventplugin.setborder
+    permission-message: You do not have permission to use this command.
+
+  permissions:
+    eventplugin.pvp:
+      default: op
+      description: Allows the player to toggle PvP
+    eventplugin.build:
+      default: op
+      description: Allows the player to toggle building
+    eventplugin.start:
+      default: op
+      description: Allows the player to start the event
+    eventplugin.setborder:
+      default: op
+      description: Allows the player to set the border
