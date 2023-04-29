@@ -33,6 +33,6 @@ public class Start implements CommandExecutor {
 		player.performCommand("setspawn");
 		player.performCommand("heal *");
 		player.getWorld().getWorldBorder().setCenter(player.getLocation());
-		player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&aStarted the event."));
+		player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&aPrepared everyone for the event!"));
 	}
 }
