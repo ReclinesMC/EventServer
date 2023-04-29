@@ -23,7 +23,7 @@ public class Start implements CommandExecutor {
 		player.performCommand("tp ~ ~ ~");
 		player.performCommand("top");
 		Bukkit.getOnlinePlayers().forEach(p -> {
-			if (p.getName().equalsIgnoreCase(player.getName()) || p.getName().equalsIgnoreCase("Reclines")) {
+			if (p.getName().equalsIgnoreCase(player.getName()) || p.getName().equalsIgnoreCase("Reclines") || p.getName().equalsIgnoreCase("HelliBoi")) {
 				return;
 			}
 			p.setGameMode(GameMode.SURVIVAL);

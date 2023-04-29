@@ -27,16 +27,16 @@ commands:
     permission: eventplugin.setborder
     permission-message: You do not have permission to use this command.
 
-  permissions:
-    eventplugin.pvp:
-      default: op
-      description: Allows the player to toggle PvP
-    eventplugin.build:
-      default: op
-      description: Allows the player to toggle building
-    eventplugin.start:
-      default: op
-      description: Allows the player to start the event
-    eventplugin.setborder:
-      default: op
-      description: Allows the player to set the border
+permissions:
+  eventplugin.pvp:
+    default: op
+    description: Allows the player to toggle PvP
+  eventplugin.build:
+    default: op
+    description: Allows the player to toggle building
+  eventplugin.start:
+    default: op
+    description: Allows the player to start the event
+  eventplugin.setborder:
+    default: op
+    description: Allows the player to set the border
